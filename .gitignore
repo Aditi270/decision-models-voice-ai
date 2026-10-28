@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.log
+chain.sh
+scratch/
+report/report.pdf
+report/report.html

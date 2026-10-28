@@ -1,0 +1,1573 @@
+{
+ "text": {
+  "Jev": {
+   "n_runs": 720,
+   "fail_rate": 0.0,
+   "acc_intent": 0.996,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 0.988,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    0.988,
+    1.0
+   ],
+   "acc_esc": 0.965,
+   "acc_esc_en": 0.971,
+   "acc_esc_hi": 0.963,
+   "acc_esc_hx": 0.963,
+   "ci_esc": [
+    0.921,
+    0.999
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.99,
+   "acc_reply_en": 0.975,
+   "acc_reply_hi": 0.996,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.978,
+    1.0
+   ],
+   "acc_all4": 0.956,
+   "auroc_esc": 0.995,
+   "ece_esc": 0.11,
+   "brier_esc": 0.03,
+   "auroc_done": 1.0,
+   "ece_done": 0.069,
+   "brier_done": 0.006,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.036,
+   "consistency": 0.988,
+   "prob_sd": 0.004,
+   "lat_med": 0.432,
+   "lat_p90": 0.556,
+   "lat_p99": 1.346,
+   "lat_mean": 0.53,
+   "provider_med": 0.138,
+   "cost_per_1k": 0.031,
+   "in_tokens": 738.325
+  },
+  "OpenAI Decisions": {
+   "n_runs": 720,
+   "fail_rate": 0.0,
+   "acc_intent": 0.996,
+   "acc_intent_en": 0.988,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    0.988,
+    1.0
+   ],
+   "acc_esc": 0.988,
+   "acc_esc_en": 0.988,
+   "acc_esc_hi": 0.988,
+   "acc_esc_hx": 0.988,
+   "ci_esc": [
+    0.967,
+    1.0
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.979,
+   "acc_reply_en": 0.975,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.963,
+   "ci_reply": [
+    0.958,
+    0.996
+   ],
+   "acc_all4": 0.971,
+   "auroc_esc": 0.99,
+   "ece_esc": 0.013,
+   "brier_esc": 0.01,
+   "auroc_done": 1.0,
+   "ece_done": 0.004,
+   "brier_done": 0.0,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.006,
+   "consistency": 1.0,
+   "prob_sd": 0.0,
+   "lat_med": 0.612,
+   "lat_p90": 0.81,
+   "lat_p99": 1.746,
+   "lat_mean": 0.69,
+   "provider_med": 0.283,
+   "cost_per_1k": 0.083,
+   "in_tokens": 826.296
+  },
+  "GPT-6 Luna (LLM)": {
+   "n_runs": 720,
+   "fail_rate": 0.0,
+   "acc_intent": 0.996,
+   "acc_intent_en": 0.988,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    0.988,
+    1.0
+   ],
+   "acc_esc": 0.99,
+   "acc_esc_en": 0.988,
+   "acc_esc_hi": 0.992,
+   "acc_esc_hx": 0.992,
+   "ci_esc": [
+    0.974,
+    1.0
+   ],
+   "acc_done": 0.999,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.996,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    0.996,
+    1.0
+   ],
+   "acc_reply": 0.993,
+   "acc_reply_en": 0.988,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.992,
+   "ci_reply": [
+    0.982,
+    1.0
+   ],
+   "acc_all4": 0.978,
+   "auroc_esc": 1.0,
+   "ece_esc": 0.03,
+   "brier_esc": 0.008,
+   "auroc_done": 0.998,
+   "ece_done": 0.02,
+   "brier_done": 0.004,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.007,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.013,
+   "consistency": 0.958,
+   "prob_sd": 0.009,
+   "lat_med": 1.785,
+   "lat_p90": 2.15,
+   "lat_p99": 2.934,
+   "lat_mean": 1.843,
+   "cost_per_1k": 0.082,
+   "in_tokens": 570.296
+  },
+  "Claude Haiku 4.5 (LLM)": {
+   "n_runs": 720,
+   "fail_rate": 0.0,
+   "acc_intent": 0.996,
+   "acc_intent_en": 0.988,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    0.988,
+    1.0
+   ],
+   "acc_esc": 0.992,
+   "acc_esc_en": 1.0,
+   "acc_esc_hi": 0.988,
+   "acc_esc_hx": 0.988,
+   "ci_esc": [
+    0.975,
+    1.0
+   ],
+   "acc_done": 0.979,
+   "acc_done_en": 0.988,
+   "acc_done_hi": 0.975,
+   "acc_done_hx": 0.975,
+   "ci_done": [
+    0.95,
+    1.0
+   ],
+   "acc_reply": 0.989,
+   "acc_reply_en": 0.975,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.992,
+   "ci_reply": [
+    0.975,
+    1.0
+   ],
+   "acc_all4": 0.96,
+   "auroc_esc": 0.999,
+   "ece_esc": 0.056,
+   "brier_esc": 0.014,
+   "auroc_done": 0.995,
+   "ece_done": 0.096,
+   "brier_done": 0.025,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.062,
+   "false_wait_rate": 0.01,
+   "false_escalation_rate": 0.0,
+   "consistency": 0.996,
+   "prob_sd": 0.002,
+   "lat_med": 1.37,
+   "lat_p90": 1.649,
+   "lat_p99": 4.254,
+   "lat_mean": 1.536,
+   "cost_per_1k": 1.188,
+   "in_tokens": 877.917
+  },
+  "Gemini 3.1 Flash Lite (LLM)": {
+   "n_runs": 720,
+   "fail_rate": 0.0,
+   "acc_intent": 1.0,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    1.0,
+    1.0
+   ],
+   "acc_esc": 0.993,
+   "acc_esc_en": 0.988,
+   "acc_esc_hi": 1.0,
+   "acc_esc_hx": 0.992,
+   "ci_esc": [
+    0.979,
+    1.0
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.992,
+   "acc_reply_en": 0.975,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.979,
+    1.0
+   ],
+   "acc_all4": 0.985,
+   "auroc_esc": 1.0,
+   "ece_esc": 0.069,
+   "brier_esc": 0.011,
+   "auroc_done": 1.0,
+   "ece_done": 0.025,
+   "brier_done": 0.004,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.009,
+   "consistency": 0.996,
+   "prob_sd": 0.002,
+   "lat_med": 1.21,
+   "lat_p90": 1.418,
+   "lat_p99": 2.17,
+   "lat_mean": 1.246,
+   "cost_per_1k": 0.285,
+   "in_tokens": 688.843
+  }
+ },
+ "hard": {
+  "Jev": {
+   "n_runs": 306,
+   "fail_rate": 0.0,
+   "acc_intent": 0.997,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 0.99,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    0.99,
+    1.0
+   ],
+   "acc_esc": 0.951,
+   "acc_esc_en": 0.971,
+   "acc_esc_hi": 0.941,
+   "acc_esc_hx": 0.941,
+   "ci_esc": [
+    0.873,
+    1.0
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.98,
+   "acc_reply_en": 0.941,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.951,
+    1.0
+   ],
+   "acc_all4": 0.928,
+   "auroc_esc": 0.99,
+   "ece_esc": 0.125,
+   "brier_esc": 0.053,
+   "auroc_done": 1.0,
+   "ece_done": 0.096,
+   "brier_done": 0.014,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.067,
+   "consistency": 0.98,
+   "prob_sd": 0.005,
+   "lat_med": 0.428,
+   "lat_p90": 0.541,
+   "lat_p99": 0.689,
+   "lat_mean": 0.471,
+   "provider_med": 0.137,
+   "cost_per_1k": 0.031,
+   "in_tokens": 742.284
+  },
+  "OpenAI Decisions": {
+   "n_runs": 306,
+   "fail_rate": 0.0,
+   "acc_intent": 0.98,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 0.971,
+   "acc_intent_hx": 0.971,
+   "ci_intent": [
+    0.941,
+    1.0
+   ],
+   "acc_esc": 0.951,
+   "acc_esc_en": 0.941,
+   "acc_esc_hi": 0.971,
+   "acc_esc_hx": 0.941,
+   "ci_esc": [
+    0.882,
+    1.0
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.961,
+   "acc_reply_en": 0.971,
+   "acc_reply_hi": 0.971,
+   "acc_reply_hx": 0.941,
+   "ci_reply": [
+    0.922,
+    0.99
+   ],
+   "acc_all4": 0.892,
+   "auroc_esc": 0.998,
+   "ece_esc": 0.048,
+   "brier_esc": 0.034,
+   "auroc_done": 1.0,
+   "ece_done": 0.011,
+   "brier_done": 0.003,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.067,
+   "consistency": 1.0,
+   "prob_sd": 0.0,
+   "lat_med": 0.604,
+   "lat_p90": 0.812,
+   "lat_p99": 1.39,
+   "lat_mean": 0.714,
+   "provider_med": 0.287,
+   "cost_per_1k": 0.083,
+   "in_tokens": 828.882
+  },
+  "GPT-6 Luna (LLM)": {
+   "n_runs": 306,
+   "fail_rate": 0.0,
+   "acc_intent": 0.98,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 0.971,
+   "acc_intent_hx": 0.971,
+   "ci_intent": [
+    0.941,
+    1.0
+   ],
+   "acc_esc": 0.954,
+   "acc_esc_en": 0.961,
+   "acc_esc_hi": 0.931,
+   "acc_esc_hx": 0.971,
+   "ci_esc": [
+    0.886,
+    1.0
+   ],
+   "acc_done": 0.99,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 0.971,
+   "ci_done": [
+    0.971,
+    1.0
+   ],
+   "acc_reply": 0.987,
+   "acc_reply_en": 0.971,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.99,
+   "ci_reply": [
+    0.964,
+    1.0
+   ],
+   "acc_all4": 0.912,
+   "auroc_esc": 1.0,
+   "ece_esc": 0.066,
+   "brier_esc": 0.035,
+   "auroc_done": 0.993,
+   "ece_done": 0.02,
+   "brier_done": 0.012,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.056,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.062,
+   "consistency": 0.941,
+   "prob_sd": 0.013,
+   "lat_med": 1.713,
+   "lat_p90": 2.039,
+   "lat_p99": 3.004,
+   "lat_mean": 1.77,
+   "cost_per_1k": 0.083,
+   "in_tokens": 572.882
+  },
+  "Claude Haiku 4.5 (LLM)": {
+   "n_runs": 306,
+   "fail_rate": 0.0,
+   "acc_intent": 0.99,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 0.971,
+   "ci_intent": [
+    0.971,
+    1.0
+   ],
+   "acc_esc": 0.948,
+   "acc_esc_en": 0.941,
+   "acc_esc_hi": 0.961,
+   "acc_esc_hx": 0.941,
+   "ci_esc": [
+    0.866,
+    1.0
+   ],
+   "acc_done": 0.99,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 0.971,
+   "ci_done": [
+    0.971,
+    1.0
+   ],
+   "acc_reply": 0.984,
+   "acc_reply_en": 0.971,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.98,
+   "ci_reply": [
+    0.958,
+    1.0
+   ],
+   "acc_all4": 0.912,
+   "auroc_esc": 0.991,
+   "ece_esc": 0.063,
+   "brier_esc": 0.042,
+   "auroc_done": 1.0,
+   "ece_done": 0.121,
+   "brier_done": 0.022,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.056,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.071,
+   "consistency": 0.98,
+   "prob_sd": 0.006,
+   "lat_med": 1.34,
+   "lat_p90": 1.582,
+   "lat_p99": 2.327,
+   "lat_mean": 1.392,
+   "cost_per_1k": 1.192,
+   "in_tokens": 881.637
+  },
+  "Gemini 3.1 Flash Lite (LLM)": {
+   "n_runs": 306,
+   "fail_rate": 0.0,
+   "acc_intent": 1.0,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    1.0,
+    1.0
+   ],
+   "acc_esc": 0.902,
+   "acc_esc_en": 0.922,
+   "acc_esc_hi": 0.912,
+   "acc_esc_hx": 0.873,
+   "ci_esc": [
+    0.801,
+    0.974
+   ],
+   "acc_done": 0.99,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.971,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    0.971,
+    1.0
+   ],
+   "acc_reply": 0.99,
+   "acc_reply_en": 0.971,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.971,
+    1.0
+   ],
+   "acc_all4": 0.882,
+   "auroc_esc": 0.992,
+   "ece_esc": 0.134,
+   "brier_esc": 0.078,
+   "auroc_done": 0.999,
+   "ece_done": 0.029,
+   "brier_done": 0.012,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.056,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.133,
+   "consistency": 0.961,
+   "prob_sd": 0.002,
+   "lat_med": 1.178,
+   "lat_p90": 1.394,
+   "lat_p99": 1.788,
+   "lat_mean": 1.262,
+   "cost_per_1k": 0.286,
+   "in_tokens": 693.912
+  }
+ },
+ "all": {
+  "Jev": {
+   "n_runs": 1026,
+   "fail_rate": 0.0,
+   "acc_intent": 0.996,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 0.988,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    0.989,
+    1.0
+   ],
+   "acc_esc": 0.961,
+   "acc_esc_en": 0.971,
+   "acc_esc_hi": 0.956,
+   "acc_esc_hx": 0.956,
+   "ci_esc": [
+    0.924,
+    0.99
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.987,
+   "acc_reply_en": 0.965,
+   "acc_reply_hi": 0.997,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.975,
+    0.997
+   ],
+   "acc_all4": 0.947,
+   "auroc_esc": 0.994,
+   "ece_esc": 0.104,
+   "brier_esc": 0.037,
+   "auroc_done": 1.0,
+   "ece_done": 0.077,
+   "brier_done": 0.008,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.045,
+   "consistency": 0.985,
+   "prob_sd": 0.005,
+   "lat_med": 0.431,
+   "lat_p90": 0.551,
+   "lat_p99": 1.103,
+   "lat_mean": 0.513,
+   "provider_med": 0.138,
+   "cost_per_1k": 0.031,
+   "in_tokens": 739.506
+  },
+  "OpenAI Decisions": {
+   "n_runs": 1026,
+   "fail_rate": 0.0,
+   "acc_intent": 0.991,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 0.991,
+   "acc_intent_hx": 0.991,
+   "ci_intent": [
+    0.977,
+    1.0
+   ],
+   "acc_esc": 0.977,
+   "acc_esc_en": 0.974,
+   "acc_esc_hi": 0.982,
+   "acc_esc_hx": 0.974,
+   "ci_esc": [
+    0.95,
+    0.997
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.974,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 0.991,
+   "acc_reply_hx": 0.956,
+   "ci_reply": [
+    0.956,
+    0.988
+   ],
+   "acc_all4": 0.947,
+   "auroc_esc": 0.992,
+   "ece_esc": 0.021,
+   "brier_esc": 0.017,
+   "auroc_done": 1.0,
+   "ece_done": 0.006,
+   "brier_done": 0.001,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.024,
+   "consistency": 1.0,
+   "prob_sd": 0.0,
+   "lat_med": 0.61,
+   "lat_p90": 0.811,
+   "lat_p99": 1.741,
+   "lat_mean": 0.697,
+   "provider_med": 0.285,
+   "cost_per_1k": 0.083,
+   "in_tokens": 827.067
+  },
+  "GPT-6 Luna (LLM)": {
+   "n_runs": 1026,
+   "fail_rate": 0.0,
+   "acc_intent": 0.991,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 0.991,
+   "acc_intent_hx": 0.991,
+   "ci_intent": [
+    0.977,
+    1.0
+   ],
+   "acc_esc": 0.98,
+   "acc_esc_en": 0.98,
+   "acc_esc_hi": 0.974,
+   "acc_esc_hx": 0.985,
+   "ci_esc": [
+    0.955,
+    0.997
+   ],
+   "acc_done": 0.996,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.997,
+   "acc_done_hx": 0.991,
+   "ci_done": [
+    0.989,
+    1.0
+   ],
+   "acc_reply": 0.991,
+   "acc_reply_en": 0.982,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.991,
+   "ci_reply": [
+    0.981,
+    0.999
+   ],
+   "acc_all4": 0.958,
+   "auroc_esc": 1.0,
+   "ece_esc": 0.037,
+   "brier_esc": 0.016,
+   "auroc_done": 0.997,
+   "ece_done": 0.019,
+   "brier_done": 0.006,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.02,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.028,
+   "consistency": 0.953,
+   "prob_sd": 0.01,
+   "lat_med": 1.766,
+   "lat_p90": 2.123,
+   "lat_p99": 2.998,
+   "lat_mean": 1.821,
+   "cost_per_1k": 0.082,
+   "in_tokens": 571.067
+  },
+  "Claude Haiku 4.5 (LLM)": {
+   "n_runs": 1026,
+   "fail_rate": 0.0,
+   "acc_intent": 0.994,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 0.991,
+   "ci_intent": [
+    0.985,
+    1.0
+   ],
+   "acc_esc": 0.979,
+   "acc_esc_en": 0.982,
+   "acc_esc_hi": 0.98,
+   "acc_esc_hx": 0.974,
+   "ci_esc": [
+    0.952,
+    1.0
+   ],
+   "acc_done": 0.982,
+   "acc_done_en": 0.991,
+   "acc_done_hi": 0.982,
+   "acc_done_hx": 0.974,
+   "ci_done": [
+    0.959,
+    0.997
+   ],
+   "acc_reply": 0.987,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.988,
+   "ci_reply": [
+    0.976,
+    0.997
+   ],
+   "acc_all4": 0.945,
+   "auroc_esc": 0.997,
+   "ece_esc": 0.053,
+   "brier_esc": 0.022,
+   "auroc_done": 0.996,
+   "ece_done": 0.099,
+   "brier_done": 0.024,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.061,
+   "false_wait_rate": 0.007,
+   "false_escalation_rate": 0.021,
+   "consistency": 0.991,
+   "prob_sd": 0.003,
+   "lat_med": 1.36,
+   "lat_p90": 1.637,
+   "lat_p99": 3.121,
+   "lat_mean": 1.493,
+   "cost_per_1k": 1.189,
+   "in_tokens": 879.026
+  },
+  "Gemini 3.1 Flash Lite (LLM)": {
+   "n_runs": 1026,
+   "fail_rate": 0.0,
+   "acc_intent": 1.0,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    1.0,
+    1.0
+   ],
+   "acc_esc": 0.966,
+   "acc_esc_en": 0.968,
+   "acc_esc_hi": 0.974,
+   "acc_esc_hx": 0.956,
+   "ci_esc": [
+    0.935,
+    0.99
+   ],
+   "acc_done": 0.997,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.991,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    0.991,
+    1.0
+   ],
+   "acc_reply": 0.991,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.98,
+    1.0
+   ],
+   "acc_all4": 0.954,
+   "auroc_esc": 0.998,
+   "ece_esc": 0.087,
+   "brier_esc": 0.031,
+   "auroc_done": 1.0,
+   "ece_done": 0.024,
+   "brier_done": 0.006,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.015,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.046,
+   "consistency": 0.985,
+   "prob_sd": 0.002,
+   "lat_med": 1.197,
+   "lat_p90": 1.408,
+   "lat_p99": 2.17,
+   "lat_mean": 1.251,
+   "cost_per_1k": 0.285,
+   "in_tokens": 690.355
+  }
+ },
+ "asr": {
+  "Jev": {
+   "n_runs": 342,
+   "fail_rate": 0.006,
+   "acc_intent": 0.991,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 0.991,
+   "acc_intent_hx": 0.982,
+   "ci_intent": [
+    0.98,
+    1.0
+   ],
+   "acc_esc": 0.968,
+   "acc_esc_en": 0.982,
+   "acc_esc_hi": 0.965,
+   "acc_esc_hx": 0.956,
+   "ci_esc": [
+    0.939,
+    0.994
+   ],
+   "acc_done": 0.991,
+   "acc_done_en": 0.991,
+   "acc_done_hi": 0.991,
+   "acc_done_hx": 0.991,
+   "ci_done": [
+    0.98,
+    1.0
+   ],
+   "acc_reply": 0.985,
+   "acc_reply_en": 0.965,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.991,
+   "ci_reply": [
+    0.971,
+    0.997
+   ],
+   "acc_all4": 0.942,
+   "auroc_esc": 0.996,
+   "ece_esc": 0.108,
+   "brier_esc": 0.036,
+   "auroc_done": 0.985,
+   "ece_done": 0.084,
+   "brier_done": 0.018,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.045,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.036,
+   "lat_med": 0.429,
+   "lat_p90": 0.572,
+   "lat_p99": 3.474,
+   "lat_mean": 0.584,
+   "provider_med": 0.134,
+   "cost_per_1k": 0.031,
+   "in_tokens": 737.813
+  },
+  "OpenAI Decisions": {
+   "n_runs": 342,
+   "fail_rate": 0.003,
+   "acc_intent": 0.991,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 0.991,
+   "acc_intent_hx": 0.991,
+   "ci_intent": [
+    0.977,
+    1.0
+   ],
+   "acc_esc": 0.982,
+   "acc_esc_en": 0.982,
+   "acc_esc_hi": 0.991,
+   "acc_esc_hx": 0.974,
+   "ci_esc": [
+    0.959,
+    0.997
+   ],
+   "acc_done": 0.991,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.982,
+   "acc_done_hx": 0.991,
+   "ci_done": [
+    0.98,
+    1.0
+   ],
+   "acc_reply": 0.956,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 0.93,
+   "acc_reply_hx": 0.965,
+   "ci_reply": [
+    0.933,
+    0.977
+   ],
+   "acc_all4": 0.936,
+   "auroc_esc": 0.999,
+   "ece_esc": 0.024,
+   "brier_esc": 0.014,
+   "auroc_done": 0.991,
+   "ece_done": 0.007,
+   "brier_done": 0.009,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.015,
+   "false_wait_rate": 0.007,
+   "false_escalation_rate": 0.02,
+   "lat_med": 0.598,
+   "lat_p90": 0.808,
+   "lat_p99": 2.289,
+   "lat_mean": 112.003,
+   "provider_med": 0.282,
+   "cost_per_1k": 0.082,
+   "in_tokens": 824.757
+  },
+  "GPT-6 Luna (LLM)": {
+   "n_runs": 342,
+   "fail_rate": 0.003,
+   "acc_intent": 0.988,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 0.991,
+   "acc_intent_hx": 0.982,
+   "ci_intent": [
+    0.974,
+    1.0
+   ],
+   "acc_esc": 0.974,
+   "acc_esc_en": 0.974,
+   "acc_esc_hi": 0.974,
+   "acc_esc_hx": 0.974,
+   "ci_esc": [
+    0.944,
+    0.994
+   ],
+   "acc_done": 0.991,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.982,
+   "acc_done_hx": 0.991,
+   "ci_done": [
+    0.98,
+    1.0
+   ],
+   "acc_reply": 0.988,
+   "acc_reply_en": 0.982,
+   "acc_reply_hi": 0.991,
+   "acc_reply_hx": 0.991,
+   "ci_reply": [
+    0.974,
+    1.0
+   ],
+   "acc_all4": 0.944,
+   "auroc_esc": 1.0,
+   "ece_esc": 0.046,
+   "brier_esc": 0.019,
+   "auroc_done": 0.995,
+   "ece_done": 0.018,
+   "brier_done": 0.009,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.015,
+   "false_wait_rate": 0.007,
+   "false_escalation_rate": 0.036,
+   "lat_med": 1.68,
+   "lat_p90": 2.033,
+   "lat_p99": 6.431,
+   "lat_mean": 113.168,
+   "cost_per_1k": 0.082,
+   "in_tokens": 568.757
+  },
+  "Claude Haiku 4.5 (LLM)": {
+   "n_runs": 342,
+   "fail_rate": 0.003,
+   "acc_intent": 0.991,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 0.982,
+   "ci_intent": [
+    0.98,
+    1.0
+   ],
+   "acc_esc": 0.974,
+   "acc_esc_en": 0.974,
+   "acc_esc_hi": 0.974,
+   "acc_esc_hx": 0.974,
+   "ci_esc": [
+    0.942,
+    0.997
+   ],
+   "acc_done": 0.985,
+   "acc_done_en": 0.991,
+   "acc_done_hi": 0.982,
+   "acc_done_hx": 0.982,
+   "ci_done": [
+    0.965,
+    1.0
+   ],
+   "acc_reply": 0.98,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 0.982,
+   "acc_reply_hx": 0.982,
+   "ci_reply": [
+    0.962,
+    0.994
+   ],
+   "acc_all4": 0.939,
+   "auroc_esc": 0.997,
+   "ece_esc": 0.055,
+   "brier_esc": 0.023,
+   "auroc_done": 0.981,
+   "ece_done": 0.095,
+   "brier_done": 0.026,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.076,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.028,
+   "lat_med": 1.325,
+   "lat_p90": 1.522,
+   "lat_p99": 2.583,
+   "lat_mean": 112.719,
+   "cost_per_1k": 1.188,
+   "in_tokens": 878.076
+  },
+  "Gemini 3.1 Flash Lite (LLM)": {
+   "n_runs": 342,
+   "fail_rate": 0.003,
+   "acc_intent": 0.997,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 0.991,
+   "ci_intent": [
+    0.991,
+    1.0
+   ],
+   "acc_esc": 0.974,
+   "acc_esc_en": 0.965,
+   "acc_esc_hi": 0.974,
+   "acc_esc_hx": 0.982,
+   "ci_esc": [
+    0.942,
+    0.997
+   ],
+   "acc_done": 0.994,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.982,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    0.985,
+    1.0
+   ],
+   "acc_reply": 0.988,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.991,
+   "ci_reply": [
+    0.977,
+    0.997
+   ],
+   "acc_all4": 0.956,
+   "auroc_esc": 0.998,
+   "ece_esc": 0.086,
+   "brier_esc": 0.027,
+   "auroc_done": 0.989,
+   "ece_done": 0.026,
+   "brier_done": 0.01,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.015,
+   "false_wait_rate": 0.004,
+   "false_escalation_rate": 0.036,
+   "lat_med": 1.196,
+   "lat_p90": 1.41,
+   "lat_p99": 16.453,
+   "lat_mean": 335.282,
+   "cost_per_1k": 0.285,
+   "in_tokens": 690.5
+  }
+ },
+ "text_rep0": {
+  "Jev": {
+   "n_runs": 342,
+   "fail_rate": 0.0,
+   "acc_intent": 0.997,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 0.991,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    0.991,
+    1.0
+   ],
+   "acc_esc": 0.959,
+   "acc_esc_en": 0.965,
+   "acc_esc_hi": 0.956,
+   "acc_esc_hx": 0.956,
+   "ci_esc": [
+    0.921,
+    0.988
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.985,
+   "acc_reply_en": 0.965,
+   "acc_reply_hi": 0.991,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.971,
+    0.997
+   ],
+   "acc_all4": 0.944,
+   "auroc_esc": 0.994,
+   "ece_esc": 0.103,
+   "brier_esc": 0.037,
+   "auroc_done": 1.0,
+   "ece_done": 0.077,
+   "brier_done": 0.008,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.048,
+   "lat_med": 0.433,
+   "lat_p90": 0.551,
+   "lat_p99": 0.879,
+   "lat_mean": 0.526,
+   "provider_med": 0.138,
+   "cost_per_1k": 0.031,
+   "in_tokens": 739.506
+  },
+  "OpenAI Decisions": {
+   "n_runs": 342,
+   "fail_rate": 0.0,
+   "acc_intent": 0.991,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 0.991,
+   "acc_intent_hx": 0.991,
+   "ci_intent": [
+    0.977,
+    1.0
+   ],
+   "acc_esc": 0.977,
+   "acc_esc_en": 0.974,
+   "acc_esc_hi": 0.982,
+   "acc_esc_hx": 0.974,
+   "ci_esc": [
+    0.95,
+    0.997
+   ],
+   "acc_done": 1.0,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 1.0,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    1.0,
+    1.0
+   ],
+   "acc_reply": 0.974,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 0.991,
+   "acc_reply_hx": 0.956,
+   "ci_reply": [
+    0.956,
+    0.988
+   ],
+   "acc_all4": 0.947,
+   "auroc_esc": 0.992,
+   "ece_esc": 0.021,
+   "brier_esc": 0.017,
+   "auroc_done": 1.0,
+   "ece_done": 0.006,
+   "brier_done": 0.001,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.0,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.024,
+   "lat_med": 0.607,
+   "lat_p90": 0.785,
+   "lat_p99": 1.889,
+   "lat_mean": 0.713,
+   "provider_med": 0.286,
+   "cost_per_1k": 0.083,
+   "in_tokens": 827.067
+  },
+  "GPT-6 Luna (LLM)": {
+   "n_runs": 342,
+   "fail_rate": 0.0,
+   "acc_intent": 0.991,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 0.991,
+   "acc_intent_hx": 0.991,
+   "ci_intent": [
+    0.977,
+    1.0
+   ],
+   "acc_esc": 0.982,
+   "acc_esc_en": 0.974,
+   "acc_esc_hi": 0.982,
+   "acc_esc_hx": 0.991,
+   "ci_esc": [
+    0.962,
+    0.997
+   ],
+   "acc_done": 0.994,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.991,
+   "acc_done_hx": 0.991,
+   "ci_done": [
+    0.985,
+    1.0
+   ],
+   "acc_reply": 0.991,
+   "acc_reply_en": 0.982,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 0.991,
+   "ci_reply": [
+    0.98,
+    1.0
+   ],
+   "acc_all4": 0.959,
+   "auroc_esc": 1.0,
+   "ece_esc": 0.036,
+   "brier_esc": 0.014,
+   "auroc_done": 0.996,
+   "ece_done": 0.018,
+   "brier_done": 0.008,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.03,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.024,
+   "lat_med": 1.784,
+   "lat_p90": 2.179,
+   "lat_p99": 3.314,
+   "lat_mean": 1.847,
+   "cost_per_1k": 0.082,
+   "in_tokens": 571.067
+  },
+  "Claude Haiku 4.5 (LLM)": {
+   "n_runs": 342,
+   "fail_rate": 0.0,
+   "acc_intent": 0.994,
+   "acc_intent_en": 0.991,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 0.991,
+   "ci_intent": [
+    0.985,
+    1.0
+   ],
+   "acc_esc": 0.98,
+   "acc_esc_en": 0.982,
+   "acc_esc_hi": 0.982,
+   "acc_esc_hx": 0.974,
+   "ci_esc": [
+    0.95,
+    1.0
+   ],
+   "acc_done": 0.982,
+   "acc_done_en": 0.991,
+   "acc_done_hi": 0.982,
+   "acc_done_hx": 0.974,
+   "ci_done": [
+    0.962,
+    0.997
+   ],
+   "acc_reply": 0.991,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.98,
+    1.0
+   ],
+   "acc_all4": 0.95,
+   "auroc_esc": 0.997,
+   "ece_esc": 0.054,
+   "brier_esc": 0.021,
+   "auroc_done": 0.996,
+   "ece_done": 0.098,
+   "brier_done": 0.024,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.061,
+   "false_wait_rate": 0.007,
+   "false_escalation_rate": 0.02,
+   "lat_med": 1.348,
+   "lat_p90": 1.634,
+   "lat_p99": 3.76,
+   "lat_mean": 1.474,
+   "cost_per_1k": 1.189,
+   "in_tokens": 879.026
+  },
+  "Gemini 3.1 Flash Lite (LLM)": {
+   "n_runs": 342,
+   "fail_rate": 0.0,
+   "acc_intent": 1.0,
+   "acc_intent_en": 1.0,
+   "acc_intent_hi": 1.0,
+   "acc_intent_hx": 1.0,
+   "ci_intent": [
+    1.0,
+    1.0
+   ],
+   "acc_esc": 0.962,
+   "acc_esc_en": 0.965,
+   "acc_esc_hi": 0.974,
+   "acc_esc_hx": 0.947,
+   "ci_esc": [
+    0.93,
+    0.988
+   ],
+   "acc_done": 0.997,
+   "acc_done_en": 1.0,
+   "acc_done_hi": 0.991,
+   "acc_done_hx": 1.0,
+   "ci_done": [
+    0.991,
+    1.0
+   ],
+   "acc_reply": 0.991,
+   "acc_reply_en": 0.974,
+   "acc_reply_hi": 1.0,
+   "acc_reply_hx": 1.0,
+   "ci_reply": [
+    0.98,
+    1.0
+   ],
+   "acc_all4": 0.95,
+   "auroc_esc": 0.998,
+   "ece_esc": 0.088,
+   "brier_esc": 0.033,
+   "auroc_done": 1.0,
+   "ece_done": 0.025,
+   "brier_done": 0.006,
+   "emerg_recall": 1.0,
+   "emerg_missed": [],
+   "cut_in_rate": 0.015,
+   "false_wait_rate": 0.0,
+   "false_escalation_rate": 0.052,
+   "lat_med": 1.21,
+   "lat_p90": 1.395,
+   "lat_p99": 2.308,
+   "lat_mean": 1.284,
+   "cost_per_1k": 0.286,
+   "in_tokens": 691.383
+  }
+ },
+ "voice_turn": {
+  "Jev decides": {
+   "Speech-to-text": 1.059,
+   "Decision": 0.431,
+   "Reply LLM first token": 0.868,
+   "TTS first audio": 0.285,
+   "total": 2.642
+  },
+  "OpenAI Decisions decides": {
+   "Speech-to-text": 1.059,
+   "Decision": 0.61,
+   "Reply LLM first token": 0.868,
+   "TTS first audio": 0.285,
+   "total": 2.822
+  },
+  "GPT-6 Luna decides": {
+   "Speech-to-text": 1.059,
+   "Decision": 1.766,
+   "Reply LLM first token": 0.868,
+   "TTS first audio": 0.285,
+   "total": 3.978
+  },
+  "Claude Haiku 4.5 decides": {
+   "Speech-to-text": 1.059,
+   "Decision": 1.36,
+   "Reply LLM first token": 0.868,
+   "TTS first audio": 0.285,
+   "total": 3.572
+  },
+  "Gemini 3.1 Flash Lite decides": {
+   "Speech-to-text": 1.059,
+   "Decision": 1.197,
+   "Reply LLM first token": 0.868,
+   "TTS first audio": 0.285,
+   "total": 3.409
+  }
+ },
+ "errors_by_system": {
+  "intent": {
+   "Jev": [
+    "s32-hi"
+   ],
+   "OpenAI Decisions": [
+    "h22-hi",
+    "h22-hx",
+    "s12-en"
+   ],
+   "GPT-6 Luna (LLM)": [
+    "h22-hi",
+    "h22-hx",
+    "s12-en"
+   ],
+   "Claude Haiku 4.5 (LLM)": [
+    "h13-hx",
+    "s12-en"
+   ],
+   "Gemini 3.1 Flash Lite (LLM)": []
+  },
+  "esc": {
+   "Jev": [
+    "h01-hi",
+    "h01-hx",
+    "h30-en",
+    "h30-hi",
+    "h30-hx",
+    "s02-en",
+    "s02-hi",
+    "s02-hx",
+    "s12-en",
+    "s12-hi",
+    "s12-hx",
+    "s34-hi",
+    "s34-hx"
+   ],
+   "OpenAI Decisions": [
+    "h01-en",
+    "h01-hx",
+    "h30-en",
+    "h30-hi",
+    "h30-hx",
+    "s12-en",
+    "s34-hi",
+    "s34-hx"
+   ],
+   "GPT-6 Luna (LLM)": [
+    "h01-hi",
+    "h02-en",
+    "h02-hi",
+    "h02-hx",
+    "s23-en",
+    "s23-hi"
+   ],
+   "Claude Haiku 4.5 (LLM)": [
+    "h16-en",
+    "h16-hi",
+    "h16-hx",
+    "h17-en",
+    "h17-hx",
+    "s34-hi",
+    "s34-hx"
+   ],
+   "Gemini 3.1 Flash Lite (LLM)": [
+    "h02-en",
+    "h02-hi",
+    "h02-hx",
+    "h14-hx",
+    "h16-hi",
+    "h16-hx",
+    "h17-en",
+    "h30-en",
+    "h30-hi",
+    "h30-hx",
+    "s41-en",
+    "s41-hx"
+   ]
+  },
+  "done": {
+   "Jev": [],
+   "OpenAI Decisions": [],
+   "GPT-6 Luna (LLM)": [
+    "h09-hx"
+   ],
+   "Claude Haiku 4.5 (LLM)": [
+    "h24-hx",
+    "s05-hi",
+    "s43-hx",
+    "s49-en",
+    "s49-hi",
+    "s49-hx"
+   ],
+   "Gemini 3.1 Flash Lite (LLM)": [
+    "h24-hi"
+   ]
+  },
+  "reply": {
+   "Jev": [
+    "h14-en",
+    "h34-en",
+    "s12-en",
+    "s76-en"
+   ],
+   "OpenAI Decisions": [
+    "h13-hx",
+    "h29-hi",
+    "h33-hx",
+    "h34-en",
+    "s12-en",
+    "s19-hx",
+    "s68-hx",
+    "s70-hx",
+    "s76-en"
+   ],
+   "GPT-6 Luna (LLM)": [
+    "h34-en",
+    "s71-hx",
+    "s76-en"
+   ],
+   "Claude Haiku 4.5 (LLM)": [
+    "h15-hx",
+    "h34-en",
+    "s12-en",
+    "s68-hx",
+    "s76-en"
+   ],
+   "Gemini 3.1 Flash Lite (LLM)": [
+    "h34-en",
+    "s12-en",
+    "s76-en"
+   ]
+  }
+ }
+}
